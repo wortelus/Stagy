@@ -41,6 +41,7 @@ namespace Stagy
                     {
                         Console.WriteLine("Non-ASCII character found.. encoding is being changed to UTF-8");
                         ChangeToUTF8();
+                        break;
                     }
                 }
             }
